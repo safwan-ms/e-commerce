@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zafwax Mobiles...</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="navbar" id="colors-navbar">
+
+        <nav>
+            <div class="menu-bar">
+                <img src="socialmedia/download.png" onclick="show()">
+
+                <h1 class="brandname">Safwax Mobiles...</h1>
+            </div>
+
+            <ul class="topnav">
+                <li class="navmenu"><a href="aboutus.html"><b>About Us</a> </li>|</b>
+                <li class="navmenu"><a href="contactus.html"><b>Contact Us</a></li> |</b>
+                <li class="navmenu"><a href="termsncondition.html"><b>Terms & Conditions</a></li> |</b>
+            </ul>
+
+        </nav>
+
+    </div>
+    <div class="overlay" id="over-lay" onclick="closemenu()"></div>
+    <div class="side-menu-head" id="side-menu-bar">
+        <div class="side-menu-bar">
+            <div class="sidetop">
+                <button id="cancel-button" onclick="changemenu()">x</button></a>
+                <img class="profile" src="Profile/12c2c2ab-86d4-4688-8aed-ac75dcb4a48c.jpg"><br>
+
+                <h1>Safwax Mobiles...</h1>
+            </div>
+            <div class="item">
+                <div class="prdinf" id="sub-menu-btn" onclick="openmenu()">
+                    <h3 class="sub-btn">Products</h3>
+                    <div class="arrow">
+                        <img id="aricon" src="socialmedia/right arrow rbg.png">
+                    </div>
+                </div>
+                <ul class="sub-menu" id="sub-menu-list">
+
+                    <a href="shopbybrand.html">
+                        <div class="sub-item">
+                            <li> Mobiles</li>
+                        </div>
+                    </a>
+                    <a href="laptop.html">
+                        <div class="sub-item">
+                            <li>Laptops</li>
+                        </div>
+                    </a>
+                    <a href="tabletcoll.html">
+                        <div class="sub-item">
+                            <li>Tablets</li>
+                        </div>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="prdinf" id="sub-menu-btn-1" onclick="openmenu1()">
+                    <h3 class="sub-btn"> Information</h3>
+                    <div class="arrow-1">
+                        <img src="socialmedia/right arrow rbg.png">
+                    </div>
+                </div>
+
+                <ul class="sub-menu" id="sub-menu-list-1">
+                    <a href="aboutus.html">
+                        <div class="sub-item">
+                            <li>About Us</li>
+                        </div>
+                    </a>
+                    <a href="contactus.html">
+                        <div class="sub-item">
+                            <li>Contact Us</li>
+                        </div>
+                    </a>
+                    <a href="privacy.html">
+                        <div class="sub-item">
+                            <li>Privacy Policy</li>
+                        </div>
+                    </a>
+                    <a href="shippingpolicy.html">
+                        <div class="sub-item">
+                            <li>Shipping Policy</li>
+                        </div>
+                    </a>
+                    <a href="termsncondition.html">
+                        <div class="sub-item">
+                            <li>Terms & Conditions</li>
+                        </div>
+                    </a>
+                    <a href="rrcpolicy.html">
+                        <div class="sub-item">
+                            <li>Return Refunds & Cancellation </li>
+                        </div>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="prdinf" id="sub-menu-btn-2" onclick="openmenu2()">
+                    <h3 class="sub-btn">Themes</h3>
+                    <div class="arrow-2">
+                        <img src="socialmedia/right arrow rbg.png">
+                    </div>
+                </div>
+
+                <ul class="sub-menu" id="sub-menu-list-2">
+
+
+                    <div class="sub-item" id="ruby-red">
+                        <img class="red-ruby" src="Profile/Red Ruby.jpg">
+                        <li>Ruby Red</li>
+                    </div>
+
+
+                    <div class="sub-item" id="olive-green">
+                        <img class="red-ruby" src="Profile/olive green.jpg">
+                        <li>Olive Green</li>
+
+                    </div>
+
+
+                    <div class="sub-item" id="rosy-brown">
+                        <img class="red-ruby" src="Profile/rosy brown.jpg">
+                        <li>Rosy Brown</li>
+                    </div>
+
+                    <div class="sub-item" onclick="randomColor()">
+                        <img class="red-ruby" src="Profile/choose randomm.png">
+                        <li>Choose Random</li>
+                    </div>
+                    <br><br>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div>
+
+
+
+
+
+
+        <!-- ----PHONE IMAGE------ -->
+        <div class="flex">
+            <div class="allinfo">
+
+                <div class="phonepreview">
+                    <img src="laptops/applemac.webp">
+                </div>
+
+
+            </div>
+
+
+            <!-- --- NAME AND AMOUNT---- -->
+            <div class="infoparent">
+                <div class="phoneinfo">
+
+                    <h1> Apple MacBook Air M2 (13 inch/ 8GB/ 512GB SSD/ Mac OS Monterey) Laptop </h1>
+                    <p style="font-size: x-large;">Rs. 149,900.00
+                        <s style="font-size: small;">Rs. 159,900.00</s><br>
+                    </p>
+                </div>
+                <!-- -----DESCRIPTION----- -->
+
+
+                <!-- -----PROCESSOR----- -->
+
+                <div class="productdescribe">
+                    <h3>Product Description</h3>
+                    <ul>
+                        <li class="des">Processor-Apple M2</li>
+                        <li class="des">8GB|256GB</li>
+                        <li class="des">Screen Size-13.6 Inch| Liquid Retna Display</li>
+                        <li class="des">Weight 1.24 Kg </li>
+                        <li class="des">Snapdragon 4 Gen 2 Processor</li>
+                    </ul>
+
+                </div>
+                <div class="buynow">
+                    <a href="http://wa.me/+918903903608"><button class="buybtn">Whatsapp Me For Easy For
+                            Emi</button></a><br><br><br>
+                    <a href="form.html"><button class="buybtn">Buy Now</button><br><br></a>
+        
+                </div>
+            </div>
+        </div>
+     
+
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="bottombackground">
+        <div>
+            <img class="bottomimage" src="bottom image/truck.png">
+            <h3>Free Shipping</h3>
+            <p>On order over ₹499</p>
+        </div>
+
+        <div>
+            <img class="bottomimage" src="bottom image/currency.png">
+            <h3>100% Genuine</h3>
+            <p>We only sell genuine products</p>
+        </div>
+
+        <div>
+            <img class="bottomimage" src="bottom image/operator.png">
+            <h3>Support</h3>
+            <p>Hotline: 8903903108</p>
+        </div>
+
+        <div>
+            <img class="bottomimage" src="bottom image/security-payment.png">
+            <h3>Safe Payment</h3>
+            <p>Protect Online Payment</p>
+        </div>
+
+        <div>
+            <img class="bottomimage" src="bottom image/delivery_1.png">
+            <h3>Door Step Delivery</h3>
+            <p>Last mile delivery</p>
+        </div>
+
+
+    </div>
+
+    <div class="hyperlink">
+
+        <div class="bottomproducts">
+            <h3>Products</h3>
+            <ul>
+                <li class="bottommenu"><a href="index.html">Home</li></a>
+                <li class="bottommenu"><a href="shopbybrand.html">Mobiles</li></a>
+                <li class="bottommenu"><a href="laptop.html">Laptops</li></a>
+                <li class="bottommenu"><a href="tabletcoll.html">Tablets</li></a>
+            </ul>
+
+        </div>
+
+        <div class="information">
+
+            <h3> Information</h3>
+            <ul>
+                <li class="bottommenu"><a href="aboutus.html">About Us</a></li>
+                <li class="bottommenu"><a href="contactus.html">Contact Us</a></li>
+                <li class="bottommenu"><a href="privacy.html">Privacy Policy</a></li>
+                <li class="bottommenu"><a href="shippingpolicy.html">Shipping Policy</a></li>
+                <li class="bottommenu"><a href="termsncondition.html">Terms & Conditions</a></li>
+                <li class="bottommenu"><a href="rrcpolicy.html">Return Refunds & Cancellation Policy</a></li>
+                <li class="bottommenu"><a href="termsncondition.html">Terms & Services</a></li>
+                <li class="bottommenu"><a href="refundpolicy.html">Refund Policy</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="address">
+            <p>Safwax MOBLIES is a leading<br>
+                multi-brand retail chain for online <br>Mobile
+                Shopping in India</p><br><br>
+
+
+            <address>
+                <a href="tel:+918903903608"> +91 8903-909-608</a><br>
+                <a href="mailto:anasmrn2k@gmail.com">anasmrn2k@gmail.com</a>
+            </address>
+            <div>
+                <a href="https://www.instagram.com/im_safwax?igsh=ZGRsdXhrdHNsZ3V1"><img class="socialmedia"
+                        src="socialmedia/insta-removebg-preview.png"></a>
+                <a href="http://wa.me/+918903903608"><img class="socialmedia"
+                        src="socialmedia/Whatsapp-Logo-Png-Transparent-Background.png"></a>
+                <a href="https://www.facebook.com/romansafwan.safwan?mibextid=ZbWKwL"><img class="socialmedia"
+                        src="socialmedia/facebook-removebg-preview.png"></a>
+                <a href="mailto:anasmrn2k@gmail.com"><img class="socialmedia"
+                        src="socialmedia/gmail-google-logo-email-computer-icons-gmail-removebg-preview.png"></a>
+
+            </div>
+
+      </div>
+      <script src="script.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,713 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.sub-btn {
+    cursor: pointer;
+}
+
+/* SEARCH */
+
+
+.ogsearch {
+   
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    width: 800px;
+
+    overflow: none;
+    justify-content: center;
+    margin: 40px;
+    margin-left: 250px;
+
+
+}
+
+.searchbtn {
+    margin: 0;
+    width: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 3px solid #b6eeeb;
+}
+main {
+    transition: 0.2s;
+ background-color: #F0F8FF;
+     width: 100%;
+     overflow: none;
+    height: 150px;
+    padding-top: 70px;
+    justify-content: center;  
+    z-index: 2;
+}
+.search {
+    margin: 0;
+    width: 800px;
+    border: none;
+    margin-left: 250px;
+    display: block;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 20px;    border: 3px solid #b6eeeb;
+
+}
+#blackscreen{
+    height: 100vh;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    opacity: 0.8;
+    top: 49%;
+     display: none;
+}
+
+.search:focus {
+    outline: none;
+}
+.searchbtn:focus {
+    outline: none;
+}
+
+.productlist {
+    background-color: #fff;
+    color: black;
+    left: 10%;
+    top: 46%;
+    position: absolute;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ;
+}
+
+.productname p {
+    padding: 15px;
+
+}
+
+.productname:hover {
+    background-color: #b6eeeb;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ;
+
+}
+
+.productname a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* On smaller screens, decrease text size */
+
+
+body {
+    background-color: #F0F8FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #20b2aa;
+    color: rgb(253, 252, 253);
+    padding: 20px;
+    position: sticky;
+    top: -40px;
+    z-index: 1;
+    padding-top: 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    ;
+}
+
+/*SUB MENU */
+.sub-menu {
+    display: none;
+}
+
+.profile {
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 30%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.sidetop {
+    background-color: #262627;
+}
+
+.sub-menu .sub-item {
+    background-color: #262627;
+}
+
+.arrow img {
+    width: 15px;
+    margin-top: 23px;
+    margin-left: 180px;
+    transition: 0.4s ease;
+
+}
+
+.arrow-1 img {
+    width: 15px;
+    margin-top: 23px;
+    margin-left: 145px;
+    transition: 0.4s ease;
+}
+
+.arrow-2 img {
+    width: 15px;
+    margin-top: 23px;
+    margin-left: 195px;
+    transition: 0.4s ease;
+}
+
+.prdinf {
+    display: flex;
+}
+
+
+/* side-menu-bar */
+
+
+.side-menu-bar {
+    width: 400px;
+    height: 100vh;
+    background-color: #1d1a1d;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: -400px;
+    transition: 2s;
+    display: block;
+}
+
+#cancel-button:hover {
+    background-color: transparent;
+}
+
+.sub-item {
+    display: flex;
+}
+
+.sub-item:hover {
+    color: #1d1a1d;
+}
+
+.red-ruby {
+    width: 10%;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.side-menu-bar h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 50px;
+}
+
+.side-menu-bar h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 80px;
+}
+
+.side-menu-bar ul a {
+    text-decoration: none;
+}
+
+.side-menu-bar ul li {
+    padding: 8px;
+    color: white;
+    list-style-type: none;
+    font-size: 1rem;
+    margin-left: 20px;
+    transition: 0.5s;
+    padding-left: 40px;
+}
+
+.prdinf:hover {
+    background-color: #33363a;
+}
+
+.side-menu-bar li:hover {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+
+.side-menu-bar ul div {
+    transition: 0.8s;
+
+
+}
+
+.side-menu-bar ul div:hover {
+    background-color: #fff;
+    font-size: 1.4rem;
+
+    box-shadow: inset -140px 0px 40px #20b2aa, inset 140px 0px 40px #20b2aa;
+
+
+}
+
+
+.side-menu-bar button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    left: 380px;
+    cursor: pointer;
+}
+
+.side-menu-bar button:hover {
+    background-color: #8234db;
+}
+
+.menu-bar {
+    width: 100%;
+    display: flex;
+}
+
+.menu-bar img:hover {
+    cursor: pointer;
+}
+
+.menu-bar img {
+    width: 3%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.brandname,
+.topnav,
+.navmenu {
+    display: inline;
+
+}
+
+.brandname {
+    font-size: 50px;
+    padding-left: 50px;
+    
+}
+
+.topnav {
+    margin-left: 20%;
+
+}
+
+.navmenu {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: large;
+
+}
+
+a {
+    color: inherit;
+}
+
+li:hover {
+    color: #FFC300;
+}
+
+.searchbar {
+    text-align: center;
+
+}
+
+input {
+    margin: 40px;
+    padding: 15px;
+    width: 1000px;
+}
+
+.bottombackground {
+    background-color: #20b2aa;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+
+
+}
+
+.bottombackground div {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+.bottomimage {
+
+
+    width: 30%;
+
+}
+
+.hyperlink {
+    display: inline-block;
+
+    background-color: #20b2aa;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.information {
+    margin-right: 60px;
+    width: 300px;
+}
+
+.information ul {
+    padding-bottom: 10px;
+}
+
+.address {
+    margin-left: 60px;
+    padding-top: 5px;
+    width: 300px;
+
+}
+
+.bottomproducts {
+    margin-left: 60px;
+    margin-right: 60px;
+
+    width: 300px;
+}
+
+.bottommenu {
+    list-style-type: none;
+    padding-bottom: 10px;
+
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactustext {
+    justify-content: space-around;
+    width: 22%;
+    margin-bottom: 60px;
+    padding: 20px;
+    margin-left: 40px;
+    background-color: white
+}
+
+.contactustext:hover {
+    box-shadow: 0px 0px 20px black;
+}
+
+.contactustext img {
+    width: 12%;
+}
+
+
+.socialmedia {
+    padding-left: 5px;
+    width: 15%;
+    height: 15%;
+    padding-top: 20px;
+
+}
+
+.informationtitle {
+    text-align: center;
+    padding: 70px;
+
+}
+
+.informationtitle a {
+    text-decoration: none;
+}
+
+.informationtext {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+
+.mobilecontainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.heading {
+    color: white;
+
+}
+
+.mobilebox {
+    background-color: white;
+    margin: 30px;
+    flex-basis: 20%;
+    border-radius: 25px;
+    position: relative;
+    
+}
+
+.mobilebox img {
+    width: 250px;
+}
+.mobilebox p {
+    padding: 10px;
+
+    background-color: #fff;
+}
+
+.mobilebox:hover {
+    box-shadow: 0px 0px 40px black;
+}
+
+
+
+
+
+
+
+/* Button */
+
+.button {
+    background: transparent;
+    font-size: 20px;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 100px;
+
+    transition: 1s;
+
+
+}
+
+.button:hover {
+    color: black;
+    box-shadow: inset -140px 0px 40px #3498db, inset 140px 0px 40px #3498db;
+
+}
+
+/* VIEW ALL */
+
+.hbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 40px;
+
+    margin: 20px;
+
+
+    background-color: black;
+
+}
+
+
+.buynow {
+    margin-top: 30px;
+    padding: 40px;
+    padding-left: 30px;
+    border-radius: 40px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.cod input {
+    width: 700px;
+    margin-left: 100px;
+
+}
+
+.phoneinfo,
+.describe,
+.productdescribe,
+.buynow {
+    position: static;
+    padding-top: 0;
+}
+
+.mobilebox a {
+    text-decoration: none;
+
+
+}
+/* EYE-ICON */
+#eye-icon{
+    border-radius: 50%;
+    width: 40px;
+    top: 210px;
+    left: 80px;
+    box-shadow: 0 0 6px black;
+    position: absolute;
+    display: none;
+}
+
+/*  */
+
+
+.formpage {
+    margin: 150px;
+    padding: px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 80px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.formpage input {
+    width: 60%;
+}
+
+.buybtn {
+    background: transparent;
+    font-size: 20px;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 30px;
+
+}
+
+.cod .buybtn {
+    width: 15%;
+    padding-right: 20px;
+    margin-left: 40px;
+
+}
+
+.buybtn:hover {
+    color: #F0F8FF;
+
+
+}
+
+.buybtn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+
+}
+
+.buybtn:hover::before {
+    top: unset;
+    bottom: 0;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.phoneinfo {
+    padding: 40px;
+    padding-bottom: 30px;
+}
+
+
+
+.phonepreview img{
+    border-radius: 35px;
+}
+
+   
+.describe {
+    color: darkslategray;
+    padding-left: 40px;
+    text-align: justify;
+    width: 85%;
+    margin-bottom: 20px;
+
+    /* position: absolute;
+    top: 350px;
+    right: 50px; */
+}
+
+.productdescribe {
+    /* position: absolute;
+    top: 540px;
+    right: 300px; */
+
+    margin-left: 30px;
+}
+
+.productdescribe li {
+    margin: 0px;
+    list-style-type: none;
+
+}
+
+.des {
+    color: darkslategray;
+    padding: 10px;
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+.des:hover {
+    color: darkslategray;
+}

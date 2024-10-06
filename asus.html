@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="mediaqueries.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -15,7 +16,14 @@
 </head>
 
 <body>
-
+    <div class="desktop-view">
+        <img src="Profile/warning.png" alt="Warning">
+        <h2 class="warning">Warning: Mobile Device Incompatibility</h2>
+        <h4 class="desktop-content">The page you are viewing is not compatible to Mobile
+            devices.<br><br> To access the
+            page, please select the
+            'Desktop Site' in the browser menu or use a desktop/laptop.</h4>
+    </div>
     <div class="navbar" id="colors-navbar">
 
         <nav>
@@ -158,62 +166,58 @@
 
 
 
-<!-- ----PHONE IMAGE------ -->
- <div class="flex">
-        <div class="allinfo">
-            
-            <div class="phonepreview">
-                <img src="laptops/asus.webp">
+        <!-- ----PHONE IMAGE------ -->
+        <div class="flex">
+            <div class="allinfo">
+
+                <div class="phonepreview">
+                    <img src="laptops/asus.webp">
+                </div>
+
+
             </div>
 
 
-        </div>
+            <!-- --- NAME AND AMOUNT---- -->
+            <div class="infoparent">
+                <div class="phoneinfo">
+
+                    <h1> Asus TUF Gaming F15 (Intel/ Core i5/ 11th Gen/ 8GB/ 512GB SSD/ RTX 2050 (4GB)/ Win 11/ Black)
+                        Laptop</h1>
+                    <p style="font-size: x-large;"> Rs. 60,000.00
+                        <s style="font-size: small;"> Rs. 75,999.00 </s><br>
+                    </p>
+                </div>
+                <!-- -----DESCRIPTION----- -->
 
 
-<!-- --- NAME AND AMOUNT---- -->
- <div class="infoparent">
-        <div class="phoneinfo">
+                <!-- -----PROCESSOR----- -->
 
-            <h1> Asus TUF Gaming F15 (Intel/ Core i5/ 11th Gen/ 8GB/ 512GB SSD/ RTX 2050 (4GB)/ Win 11/ Black) Laptop</h1>
-            <p style="font-size: x-large;"> Rs.  60,000.00
-                <s style="font-size: small;"> Rs. 75,999.00 </s><br>
-            </p>
-        </div>
-<!-- -----DESCRIPTION----- -->
-        
+                <div class="productdescribe">
+                    <h3>Product Description</h3>
+                    <ul>
+                        <li class="des">Processor-Apple M2</li>
+                        <li class="des">8GB|256GB</li>
+                        <li class="des">Screen Size-13.6 Inch| Liquid Retna Display</li>
+                        <li class="des">Weight 1.24 Kg </li>
+                        <li class="des">Snapdragon 4 Gen 2 Processor</li>
+                    </ul>
 
-<!-- -----PROCESSOR----- -->
+                </div>
+                <div class="buynow">
+                    <a href="http://wa.me/+918903903608"><button class="buybtn">Whatsapp Me For Easy For
+                            Emi</button></a><br><br><br>
+                    <a href="form.html"><button class="buybtn">Buy Now</button><br><br></a>
 
-            <div class="productdescribe">
-                <h3>Product Description</h3>
-                <ul>
-                    <li class="des">Processor-Apple M2</li>
-                    <li class="des">8GB|256GB</li>
-                    <li class="des">Screen Size-13.6 Inch| Liquid Retna Display</li>
-                    <li class="des">Weight 1.24 Kg </li>
-                    <li class="des">Snapdragon 4 Gen 2 Processor</li>
-                </ul>
-        
+                </div>
             </div>
-            <div class="buynow">
-                <a href="http://wa.me/+918903903608"><button class="buybtn">Whatsapp Me For Easy For
-                        Emi</button></a><br><br><br>
-                <a href="form.html"><button class="buybtn">Buy Now</button><br><br></a>
-               
-            </div>
         </div>
-        </div>
-        
 
-
-
-
-      
 
     </div>
     </div>
 
-   
+
 
 
 
@@ -224,7 +228,7 @@
 
     </div>
 
-    <div class="bottombackground">
+    <div class="bottombackground" id="colors-btmbg">
         <div>
             <img class="bottomimage" src="bottom image/truck.png">
             <h3>Free Shipping</h3>
@@ -258,7 +262,7 @@
 
     </div>
 
-    <div class="hyperlink">
+    <div class="hyperlink" id="colors-hyperlinks">
 
         <div class="bottomproducts">
             <h3>Products</h3>
